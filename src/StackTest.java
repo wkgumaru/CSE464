@@ -1,7 +1,11 @@
+
+import org.jgrapht.graph.DefaultDirectedGraph;
+import org.jgrapht.graph.DefaultEdge;
 import org.junit.Assert;
 import org.junit.Test;
+import org.jgrapht.*;
 public class StackTest {
-    Stack s = new Stack();
+    /*Stack s = new Stack();
     public static void testStackPush(){
         Stack s = new Stack();
         System.out.println(s.size());
@@ -17,4 +21,8 @@ public class StackTest {
     public static void main(String[] args){
           testStackPush();
     }
+
+     */
+    Graph<String, DefaultEdge> directedGraph =
+            new DefaultDirectedGraph<String, DefaultEdge>(DefaultEdge.class);
 }

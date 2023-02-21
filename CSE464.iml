@@ -39,5 +39,6 @@
       </library>
     </orderEntry>
     <orderEntry type="library" exported="" name="bluecatcode.junit.4.11.extended" level="project" />
+    <orderEntry type="library" exported="" name="jgrapht.core" level="project" />
   </component>
 </module>
